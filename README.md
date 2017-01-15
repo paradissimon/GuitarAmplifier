@@ -14,8 +14,8 @@ Good books related to this project
 **Designing Power Supplies for Valve Amplifiers **
 https://www.amazon.ca/Designing-Power-Supplies-Valve-Amplifiers/dp/0956154514
 
-**Designing Valve Preamps for Guitar and Bass**
+**Designing Valve Preamps for Guitar and Bass **
 https://www.amazon.ca/Designing-Valve-Preamps-Guitar-Bass/dp/0956154506
 
-**Warning! This electronics project contains potentially lethal DC voltages of 300 volts.**
-**If not carefull, these voltages can kill or harm you!**
+**Warning! This electronics project contains potentially lethal DC voltages of 300 volts. **
+**If not carefull, these voltages can kill or harm you! **
