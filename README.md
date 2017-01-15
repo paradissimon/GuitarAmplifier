@@ -5,7 +5,7 @@ This is repository contains Autocad DXF layout and LTSpice schematics for a 5W c
 
 The DXF layout in the Spice folder can be opened with the free QCad software which can be downloaded at http://www.qcad.org/en/qcad-downloads-trial
 
-The schematic file can be works Linear Technology LTSpice electronic simulator. Its availabe at http://www.linear.com/designtools/software/
+The schematic file works with Linear Technology's LTSpice electronic simulator available at http://www.linear.com/designtools/software/
 
 The Photo folder contains some pictures of the actual build. I took the aluminium enclosure, cab and speaker out of an existing Line6 Spider III small guitar amplifier. The output transformer is a custom one salvaged from another amplifier. I guess any single-ended 5W/10W output transformer designed for EL84 tubes should be ok; mine has an input impedance of around 6000 ohms. The Line6 speaker is 4 ohms; use proper output tap for other speaker impedances. 
 
