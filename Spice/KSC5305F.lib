@@ -1,0 +1,44 @@
+************** Power Discrete Bipolar Electrical Model ************************
+** Product: KSC5305F
+** Package: TO-220F
+**----------------------------------------------------------------------------
+.subckt KSC5305F 1 2 3
+Q1 1 2 3 KSC5305_NPN
+D1 3 1   KSC5305_DIODE
+.MODEL KSC5305_NPN npn
++ IS  = 5.0463E-11       BF  = 56.0             VAF = 28
++ IKF = 0.65256          ISE = 3.3190E-8        NE  = 2.0
++ BR  = 0.00249          IKR = 0.085012         VAR = 100   
++ ISC = 2.18E-8          NC  = 1.5              RE  = 0.0048   
++ RB  = 13.08            RBM = 0.008            IRB = 1.0E-7
++ RC  = 0.05237          CJE = 3.080E-10        CJC = 1.4915E-10 
++ VJC = 0.58977          MJC = 0.40081          TF  = 5.5583E-11
++ XTF = 9.5721           VTF = 10.425           ITF = 6.8697E-2 
++ TR  = 1.00E-8     
+.MODEL KSC5305_DIODE D
++ IS  = 1.800E-12        RS  = 4.800E-2          N  = 1.0
++ XTI = 3                CJO = 2.000E-11         VJ = 0.6
++ M   = 0.5              FC  = 0.5               BV = 400
++ IBV = 2.05E-5          TT  = 9E-7
+.ends KSC5305F
+
+******************** Power Discrete Bipolar Thermal Model ***********************
+** Package: TO-220F
+**-------------------------------------------------------------------------------
+.SUBCKT KSC5305F_Thermal TH TL
+CTHERM1 TH 6 8.440e-4
+CTHERM2 6 5  3.680e-3
+CTHERM3 5 4  1.240e-2
+CTHERM4 4 3  2.020e-2
+CTHERM5 3 2  3.420e-2
+CTHERM6 2 TL 2.020e-1
+RTHERM1 TH 6 8.760e-3
+RTHERM2 6 5  3.760e-2
+RTHERM3 5 4  3.160e-1
+RTHERM4 4 3  5.740e-1
+RTHERM5 3 2  8.220e-1
+RTHERM6 2 TL 1.367e+0
+.ENDS KSC5305F_Thermal  
+**--------------------------------------------------------------------------------                                                                             
+** Creation: Mar.-27-2010   Rev:1.0
+** Fairchild Semiconductor
