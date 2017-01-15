@@ -1,4 +1,4 @@
-All tube class Aguitar amplifier
+All tube class A guitar amplifier
 =========================
 
 This is repository contains Autocad DXF layout and LTSpice schematics for a 5W class A guitar amplifier based on a **12AX7** preamplifier tube and **EL84** power tube.
